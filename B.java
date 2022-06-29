@@ -6,6 +6,7 @@ public class B {
         B b1=new B();
 
         System.out.println(b1.i);
+
         System.out.println(B.j);
     }
 }
