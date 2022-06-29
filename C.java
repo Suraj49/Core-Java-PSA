@@ -3,6 +3,7 @@ public class C {
         System.out.println("C");
       //  C c4=new C(); this is not possible ; error
         C c4=new C(60); //this is possible;
+
     }
     // if you are using more then one constructor in same class . then you need to diff with args.
 
