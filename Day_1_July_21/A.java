@@ -11,5 +11,8 @@ public class A {
 
             A a3 = new A();
             System.out.println(a3);
+
+            A a4=new A();
+            System.out.println(a4);
         }
 }
