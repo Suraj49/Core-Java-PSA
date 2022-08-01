@@ -12,4 +12,5 @@ public class A {
         A a2=new A();
         System.out.println(a2.i);//orignal value is 10
     }
+
 }
