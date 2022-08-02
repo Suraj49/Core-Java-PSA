@@ -18,5 +18,6 @@ public class B {
     }
     public void test2(){
         System.out.println("called using this key");
+
     }
 }

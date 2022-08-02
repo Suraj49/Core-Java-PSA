@@ -20,7 +20,6 @@ public class A {
         A a2=new A(); //the no of time we create object that many time constructor is called
         A a3=new A(10); //calling constructor have single args
         A a4=new A(30,50);//calling constructor have two args
-
         a1.A(); //calling method A();
     }
 }
