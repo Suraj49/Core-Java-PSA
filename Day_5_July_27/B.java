@@ -17,6 +17,7 @@ public class B {
     public void test(){
         System.out.println(B.i); //static variables can also access out side main
         //we can access static anywhere in the program
+        System.out.println(i);
     }
 
 }
