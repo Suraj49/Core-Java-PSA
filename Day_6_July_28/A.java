@@ -12,6 +12,7 @@ public class A {
         a.test();
     }
     public void test(){
-        System.out.println(i);
+        System.out.println(i);//we can directly use non static variable inside non static method
+
     }
 }
