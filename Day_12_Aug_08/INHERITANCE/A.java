@@ -3,4 +3,7 @@ package Day_12_Aug_08.INHERITANCE;
 //it.
 public class A {
     int x=10; //non static variable
+    public void test1(){
+        System.out.println("A");
+    }
 }
