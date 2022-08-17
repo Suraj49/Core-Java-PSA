@@ -11,4 +11,5 @@ public class C implements A{
         C c1=new C();
         c1.test();
     }
+    //we cannot inherit class into interface
 }
