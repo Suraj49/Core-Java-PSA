@@ -7,7 +7,7 @@ public class B {
     static B b;//by default reference variable is null
     public static void main(String[] args) {
         try {
-            System.out.println(b.i);
+            System.out.println(b.i); //accessing non-static using null reference
         }catch (NullPointerException e){
             System.out.println(e);
         }
