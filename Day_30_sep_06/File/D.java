@@ -7,5 +7,6 @@ public class D {
         File file=new File("K://test_psa//test");
         boolean val=file.mkdir();
         System.out.println(val);
+
     }
 }
