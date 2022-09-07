@@ -12,6 +12,7 @@ public class D {
             FileReader fr =new FileReader(f);
             char[] ch=new char[(int)len];
             fr.read(ch);
+            fr.close();
             for (char x:ch){
                 System.out.print(x);
             }
