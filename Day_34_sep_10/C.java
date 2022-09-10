@@ -3,7 +3,7 @@ package Day_34_sep_10;
 
 import java.sql.*;
 
-public class B {
+public class C {
     public static void main(String[] args) {
         try {
             //connect to database test_x
@@ -11,7 +11,7 @@ public class B {
             System.out.println(con);
             //write code to insert record in test_x
             Statement st = con.createStatement();
-            st.executeUpdate("Delete into registration value ('Mrinal','9915245847','mk2@gmail.com','india')");
+            st.executeUpdate("Delete from registration where name='Mrinal'");
 
 
             //close database connection
