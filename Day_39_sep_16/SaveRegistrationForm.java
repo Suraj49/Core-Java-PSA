@@ -1,6 +1,4 @@
-package Day_39_sep_16;
-
-
+package p1;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -10,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-@WebServlet("/save")
+@WebServlet("/Save")
 public class SaveRegistrationForm extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
@@ -22,13 +20,21 @@ public class SaveRegistrationForm extends HttpServlet {
 
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        System.out.println("get");
     }
 
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         System.out.println("post");
+        String name=request.getParameter("firstName");
+        System.out.println(name);
+        String city=request.getParameter("city");
+        System.out.println(city);
+        String emailId=request.getParameter("emailId");
+        System.out.println(emailId);
+        String num=request.getParameter("num");
+        System.out.println(num);
 
     }
 
-}
 }
