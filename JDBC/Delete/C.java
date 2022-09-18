@@ -1,4 +1,4 @@
-package JDBC.Insert;
+package JDBC.Delete;
 
 
 import java.sql.*;
