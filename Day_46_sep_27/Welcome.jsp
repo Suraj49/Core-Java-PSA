@@ -8,7 +8,6 @@
 </head>
 <body>
 	<%
-
 	//script tag
 
 	int i=30;//1 create variable
