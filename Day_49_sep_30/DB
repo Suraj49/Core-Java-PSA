@@ -1,0 +1,22 @@
+create database registrationapp
+
+use registrationapp
+
+create table login(
+email varchar(120),
+ password varchar(20)
+)
+
+insert into login value(
+'suraj@gmail.com',
+'surajtest'
+)
+
+create table registration(
+name varchar(20),
+city varchar(20),
+email varchar(30),
+mobile varchar(10)
+)
+
+select * from login
