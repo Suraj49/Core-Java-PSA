@@ -1,7 +1,8 @@
 package StringAssgnment.interviewQ;
 
 public class D {
-    //steps to create immutable class
+    //steps to create immutable class : it means that can be changed.
+    //it will kinds of constant.
     private final int age;
     private final String name;
     public D(int age, String name){
