@@ -11,9 +11,11 @@ public class N {
         String floatStr=String.valueOf(f);
         String doobleStr=String.valueOf(d);
         String boolStr=String.valueOf(b);
+        String charStr=String.valueOf(c);
         System.out.println(intStr);
         System.out.println(floatStr);
         System.out.println(doobleStr);
         System.out.println(boolStr);
+        System.out.println(charStr);
     }
 }
